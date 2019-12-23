@@ -1,6 +1,12 @@
 {
   "plugins": [
     [
+      "./babel-plugin-delete-console",
+      {
+        "exclude": ["log","warn"]
+      }
+    ],
+    [
       "./custom-babel-plugin/index.js"
     ],
     [
